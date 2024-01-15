@@ -14,6 +14,11 @@ export default function Home() {
             Test
           </Link>
         </li>
+        <li>
+          <Link href="/pages/checo">
+            Foto de Checo #11
+          </Link>
+        </li>
       </ul>
      
     </main>
