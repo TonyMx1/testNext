@@ -35,7 +35,7 @@ const Registro= ({onClick} : any) =>{
                 <button id="button-login" onClick={handleRegister} >Registrar</button>
                 <br /><br />
             <p>¿Ya tienes cuenta? <Link href="#">Inicia session</Link></p> 
-            <button onClick={(onClick4)=>{}}>Cerrar</button>
+            <button onClick={(onClick)=>{}}>Cerrar</button>
             </form>
             </div>
         </div>
