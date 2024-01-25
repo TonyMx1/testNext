@@ -1,8 +1,9 @@
+import IndexPage from "@/components/IndexPage"
 import Link from "next/link"
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+    /*<main className="flex min-h-screen flex-col items-center justify-between p-24">
       <ul>
         <li>
           <Link href="/">
@@ -21,6 +22,8 @@ export default function Home() {
         </li>
       </ul>
      
-    </main>
+    </main> */
+
+    <IndexPage />
   )
 }
