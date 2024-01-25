@@ -42,7 +42,7 @@ export default function Home(){
 
         {/* <Counter /> */}
 
-        <Login />
+        <Login onclose={undefined} />
         
     </div>
     )
