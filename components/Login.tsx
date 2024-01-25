@@ -27,7 +27,7 @@ const Login = ({onClose})=>{
                 <button onClick={handleLogin}>Iniciar sesion</button>
                 <br />
                 <p>¿No tienes cuenta? <Link href="/pages/registro">Regístrate</ Link></p>
-                <button onClick={onclose}>CERRAR</button>
+                <button onClick={onClose}>CERRAR</button>
                 
             </div>
         </div>
