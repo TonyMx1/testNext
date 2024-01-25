@@ -3,7 +3,7 @@ import Link from "next/link";
 import { useState } from "react";
 // import formStyles from "@/styles/formStyles.module.css"
 
-const Registro= ({onClick}) =>{
+const Registro= ({onClick} : any) =>{
     const [email, setEmail] = useState('')
     const [password, setPassword] = useState('')
 
