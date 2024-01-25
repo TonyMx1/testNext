@@ -28,7 +28,7 @@ const IndexPage = () => {
             <button onClick={handleLoginClick}>Iniciar Sesión</button>
             <br />
             <button onClick={handleRegisterClick}>Registro</button>
-            {showLogin && <Login onClick ={handleCloseLogin}/> }
+            {showLogin && <Login onclose ={handleCloseLogin}/> }
             {showRegister && <Registro onClick ={handleCloseRegister}/>}
 
         </div>
