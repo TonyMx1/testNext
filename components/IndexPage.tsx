@@ -1,6 +1,7 @@
 "use client"
 import { use, useState } from "react"
 import Login from "./Login"
+import Registro from "./Registro"
 
 
 const IndexPage = () => {
@@ -18,13 +19,17 @@ const IndexPage = () => {
     const handleCloseLogin = () => {
         setShowLogin(false)
     }
+    const handleCloseRegister = () =>{
+        setShowRegister(false)
+    }
 
     return (
         <div>
             <button onClick={handleLoginClick}>Iniciar Sesión</button>
             <br />
             <button onClick={handleRegisterClick}>Registro</button>
-            { showLogin && <Login onclose={handleCloseLogin}/> }
+            {showLogin && <Login onClick ={handleCloseLogin}/> }
+            {showRegister && <Registro onClick ={handleCloseRegister}/>}
 
         </div>
     )
